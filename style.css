@@ -411,12 +411,32 @@ img {
   }
 
   @media (max-width: 600px) {
+ 
     .preco-detalhe a {
       padding:  0px 15px;
     }
 
     .footer {
       padding: 30px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .menu-lista {
+      gap: 10px;
+    }
+
+    .menu-lista a {
+      font-size: 1rem;
+    }
+
+    .superinfo {
+      flex-direction: column;
+      font-size: 0.9rem;
+    }
+
+    .footer p {
+      font-size: 1.5rem;
     }
   }
 
