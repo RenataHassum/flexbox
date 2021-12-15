@@ -355,6 +355,7 @@ img {
   flex: 3 1 240px;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
+  text-align: center;
   font-style: italic;
   background-color: transparent;
 
