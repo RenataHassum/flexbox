@@ -272,7 +272,6 @@ img {
   margin: 60px auto;
   display: flex;
   flex-wrap: wrap;
-  
 }
 
 .qualidade h2 {
@@ -415,6 +414,15 @@ img {
     .preco-container .preco-detalhe:nth-child(2) {
       order: -1;
     }
+
+    .qualidade {
+      margin: 30px auto;
+    }
+
+    .qualidade p {
+      margin-bottom: 20px;
+    }
+
   }
 
   @media (max-width: 600px) {
