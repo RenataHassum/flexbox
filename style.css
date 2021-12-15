@@ -350,7 +350,7 @@ img {
 .newsletter-form input {
   margin: 0px;
   padding: 15px 10px;
-  border-radius: none;
+  border-radius: 0px;
   border: 2px solid #222222;
   flex: 3 1 240px;
   font-family: "Nunito", Arial, Helvetica, sans-serif;
