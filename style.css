@@ -221,7 +221,6 @@ img {
 .preco-container a {
   display: block;
   font-size: 2.25rem;
-  text-transform: uppercase;
   color: #222222;
   font-weight: 700;
   padding: 15px 0px;
@@ -370,13 +369,7 @@ img {
   color: #ffffff;
   border: 0px;
   flex: 1;
-
 }
-
-
-
-
-
 
   /* Footer */
 
@@ -389,5 +382,41 @@ img {
   .footer-bg p {
     text-align: center;
     font-size: 2.25rem;
+  }
+
+  @media (max-width: 800px) {
+
+    .produtos {
+      padding: 40px;
+    }
+
+    .produtos h1 {
+      margin-bottom: 30px;
+    }
+
+    .preco-container {
+        padding-left: 10px;
+        padding-right: 10px;
+        padding: 30px;
+   
+    }
+
+    .preco-container .preco-detalhe:nth-child(3) {
+      order: -2;
+    }
+
+    .preco-container .preco-detalhe:nth-child(2) {
+      order: -1;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .preco-detalhe a {
+      padding:  0px 15px;
+    }
+
+    .footer {
+      padding: 30px;
+    }
   }
 
