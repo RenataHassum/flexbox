@@ -426,15 +426,10 @@ img {
       gap: 10px;
     }
 
-    .menu-lista a {
-      font-size: 1.25rem;
-    }
-
     .superinfo {
       flex-direction: column;
       font-size: 0.9rem;
       margin-bottom: 20px;
-
     }
 
     .footer p {
