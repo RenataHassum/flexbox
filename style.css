@@ -227,12 +227,12 @@ img {
   border: 2px solid #222222;
   text-align: center;
   margin: 20px;
+  transition: 0.2s ease-out;
 }
 
 .preco-container a:hover {
   background-color: #222222;
   color: #ffffff;
-  transition: 0.4s;
 }
 
 .preco-item li::after{
