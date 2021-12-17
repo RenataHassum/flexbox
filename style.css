@@ -266,6 +266,10 @@ img {
   display: block;
 }
 
+.preco-detalhe a {
+  margin: 0 auto;
+}
+
 /* Qualidade */
 
 .qualidade {
