@@ -432,7 +432,7 @@ img {
   @media (max-width: 600px) {
  
     .preco-detalhe a {
-      padding:  0px 15px;
+      padding:  10px 15px;
     }
 
     .footer-bg {
